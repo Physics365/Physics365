@@ -2,7 +2,7 @@
 
 - 🔭 I’m currently working on Casio fx-991CN X and fx-991CN CW research.
 - 🌱 I’m currently learning Assembly Language.
-- 📫 How to reach me: email me at physics365@outlook.com or call +86 15267598083
+- 📫 How to reach me: email me at physics365@outlook.com or call +86 15267598083 (not recommended)
 - 😄 Pronouns: he/ him
 - ⚡ Fun fact: I' m still a high school student studying physics competitions. 
 - 🍹 I' m available only on weekends. 
