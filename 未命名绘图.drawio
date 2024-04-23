@@ -1,20 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T15:48:26.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jIHxbw8ysKMll_Yb5fXg" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T15:55:21.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="63yIuuwJ_cNL_-NOEfYF" version="24.2.8" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GojY49oQipr9B0Q-skVf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GojY49oQipr9B0Q-skVf-1" target="GojY49oQipr9B0Q-skVf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GojY49oQipr9B0Q-skVf-1" value="&lt;font style=&quot;font-size: 21px;&quot; face=&quot;noto sans&quot;&gt;循环开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GojY49oQipr9B0Q-skVf-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;noto sans&amp;quot;; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;把寄存器R1赋值为00&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;align=center;html=1;" vertex="1" parent="1">
+        <mxCell id="GojY49oQipr9B0Q-skVf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GojY49oQipr9B0Q-skVf-2" target="GojY49oQipr9B0Q-skVf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;noto sans&quot;&gt;把寄存器&lt;/font&gt;&lt;font face=&quot;Lucida Console&quot;&gt;R1&lt;/font&gt;&lt;font face=&quot;noto sans&quot;&gt;赋值为&lt;/font&gt;&lt;font face=&quot;Lucida Console&quot;&gt;00&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;align=center;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="160" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GojY49oQipr9B0Q-skVf-3" value="&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+sans+&quot; face=&quot;noto sans&quot;&gt;&lt;span style=&quot;&quot;&gt;查看内存&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;0xD155&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;，如果其值等于寄存器&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;R1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;的值，显示光标（不占宽度）&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+        <mxCell id="GojY49oQipr9B0Q-skVf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GojY49oQipr9B0Q-skVf-3" target="GojY49oQipr9B0Q-skVf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-3" value="&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+sans+&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;noto sans&amp;quot;;&quot;&gt;查看内存&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;0xD155&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;noto sans&amp;quot;;&quot;&gt;，如果其值等于寄存器&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;noto sans&amp;quot;;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;R1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;noto sans&amp;quot;;&quot;&gt;的值，显示光标（不占宽度）&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="240" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="GojY49oQipr9B0Q-skVf-4" value="&lt;font data-font-src=&quot;https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+sans+&quot; face=&quot;noto sans&quot; style=&quot;font-size: 16px;&quot;&gt;查看内存&lt;span style=&quot;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;0xD180+R1&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="GojY49oQipr9B0Q-skVf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GojY49oQipr9B0Q-skVf-10" target="GojY49oQipr9B0Q-skVf-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-10" value="&lt;font data-font-src=&quot;https://fonts.google.com/noto/specimen/Noto+Sans?query=noto+sans+&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;noto sans&quot;&gt;查看内存&lt;/font&gt;&lt;span style=&quot;&quot; class=&quot;a0&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;0xD180+R1&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="380" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-21" value="&lt;font face=&quot;noto sans&quot; style=&quot;font-size: 16px;&quot;&gt;显示内存中从0xD180+R1到0xD180+R1+1对应的字符&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GojY49oQipr9B0Q-skVf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.563;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GojY49oQipr9B0Q-skVf-10" target="GojY49oQipr9B0Q-skVf-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
